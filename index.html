@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="js/javascript.js" defer></script>
     <title>Identity Grid</title>
 </head>
 <body>
@@ -15,55 +16,56 @@
         <section class="wrapper">
             <!-- Start of filter buttons -->
             <div class="filters">
-                <a href="#" class="button">
+                <a href="#" class="button active" id="all">
                     All
                 </a>
-                <a href="#" class="button">
+                <a href="#" class="button" id="art">
                     Art
                 </a>
-                <a href="#" class="button">
-                    Architecture</a>
-                <a href="#" class="button">
+                <a href="#" class="button" id="architecture">
+                    Architecture
+                </a>
+                <a href="#" class="button" id="nature">
                     Nature
                 </a>
-                <a href="#" class="button">
+                <a href="#" class="button" id="sport">
                     Sport
                 </a>
-                <a href="#" class="button">
+                <a href="#" class="button" id="wildlife">
                     Wildlife
                 </a>
             </div>
             <!-- End of filter buttons -->
             <!-- Start of grid section -->
             <div class="grid-container">
-                <div class="grid-item item-1">
+                <div data-category="architecture" class="grid-item item-1">
                     <img src="images/chrysler-building.jpg" alt="The top of the Chrysler Building in New York">
                 </div>
-                <div class="grid-item item-2">
+                <div data-category="wildlife" class="grid-item item-2">
                     <img src="images/dachshund.jpg" alt="An adult Dachshund sitting in a filed of grass">
                 </div>  
-                <div class="grid-item item-3">
+                <div data-category="nature" class="grid-item item-3">
                     <img src="images/houseleek.jpg" alt="A close up of a Houseleek plant">
                 </div>
-                <div class="grid-item item-4">
+                <div data-category="architecture" class="grid-item item-4">
                     <img src="images/brooklyn-bridge.jpg" alt="The top of the Brooklyn Bridge in New York">
                 </div>
-                <div class="grid-item item-5">
+                <div data-category="sport" class="grid-item item-5">
                     <img src="images/skiing.jpg" alt="A man skiing down a mountain">
                 </div>
-                <div class="grid-item item-6">
+                <div data-category="art" class="grid-item item-6">
                     <img src="images/peacock-vase.webp" alt="A close up of the Peacock Vase by Tiffany">
                 </div>
-                <div class="grid-item item-7">
+                <div data-category="wildlife" class="grid-item item-7">
                     <img src="images/elephant.jpg" alt="A baby elephant looking at the camera">
                 </div>
-                <div class="grid-item item-8">
+                <div data-category="architecture" class="grid-item item-8">
                     <img src="images/st-patricks-dublin.jpg" alt="The interior of St Patrick's Church in Dublin">
                 </div>
-                <div class="grid-item item-9">
+                <div data-category="nature" class="grid-item item-9">
                     <img src="images/stone-pines-rome.jpg" alt="The Stone Pines in Rome">
                 </div>
-                <div class="grid-item item-10">
+                <div data-category="art" class="grid-item item-10">
                     <img src="images/mucha.jpg" alt="A poster by Alphonse Mucha">
                 </div>
             </div>
