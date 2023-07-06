@@ -1,3 +1,3 @@
 # identity-grid
  
-This is an exercise to clone an existing web page to practice using the CSS grid property. I do not own any of the images or layout.
+I used a previous project that included placeholder HTML and CSS for the filter links to finish this one. In order to make these URLs filterable, Javascript was included. I do not own the images or layout.
